@@ -25,9 +25,9 @@ Route::get('/', [HalamanController::class,'home'])->name('home');
 
 Route::get('/about', [HalamanController::class,'about'])->name('about');
 
-Route::get('/contact', [HalamanController::class,'contact'])->name('contact');
+Route::get('/project', [HalamanController::class,'contact'])->name('contact');
 
-Route::get('/hobby', [HalamanController::class,'hobby'])->name('hobby');
+Route::get('/skill', [HalamanController::class,'hobby'])->name('hobby');
 
 Route::post('/', function (App\Http\Requests\PostRequest $request) 
 {

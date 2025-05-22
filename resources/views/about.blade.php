@@ -5,11 +5,11 @@
 @section('content')
 
 <!-- Section About Me -->
-<section class="flex items-center justify-center min-h-screen px-8 py-48">
+<section class="flex items-center justify-center min-h-screen px-8" style="padding-top: 100px; padding-bottom: 100px;">
     <div class="flex flex-row items-center gap-8 w-full">
         <!-- Foto Profil -->
         <div class="w-1/2 flex justify-center items-center">
-            <img src="images/mee.png" alt="Foto Indah" class="w-96 h-96 object-cover">
+            <img src="images/mee.png" alt="Foto Indah" class=" object-cover" style="height: 500px; width: 500px;">
         </div>
 
         <!-- Deskripsi -->
@@ -29,9 +29,9 @@
 </section>
 
 <!-- Section Education -->
-<section class="bg-white flex flex-col items-center px-8 py-24">
+<section class="bg-white flex flex-col items-center px-8" style="padding-top: 100px; padding-bottom: 100px;">
     <div class="text-center mb-12">
-        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-yellow-500 md:text-5xl lg:text-6xl dark:text-white">
             Education
         </h1>
     </div>

@@ -3,7 +3,75 @@
 @section('titlePage', 'contact')
 
 @section('content')
-<div class="header">
+
+<!-- Section Project -->
+<section class="bg-white flex flex-col items-center px-8 py-12">
+    <div class="text-center mb-8">
+        <h1 class="mb-12 text-4xl font-extrabold leading-none tracking-tight text-yellow-500 md:text-5xl lg:text-6xl">
+            Project
+        </h1>
+    </div>
+    <div class="grid grid-cols-3 items-center gap-16">
+      <!-- projek 1 -->
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="/images/couture_vista.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Couture Vista</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Website untuk butik dengan fitur katalog produk, halaman detail produk, dan desain yang elegan.</p>
+          <a href="https://github.com/beautyclouds/Couture_Vista" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-Yellow-400 rounded-lg hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            See more
+             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- projek 2 -->
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="/images/lha_iki_crud.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lha Iki Cafe</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Website untuk café dengan sistem pemesanan online, menu digital, dan desain responsif untuk pengalaman pengguna optimal.</p>
+          <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-Yellow-400 rounded-lg hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            See more
+             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- projek 3 -->
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="/images/perpus.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Desain Perpustakaan</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Desain perpustakaan digital yang simpel, informatif, mudah digunakan, dengan fitur rekomendasi dan pelacakan buku</p>
+          <a href="https://www.figma.com/design/K2jDISScsv2XNOK6IvUUch/Perpustakaan?node-id=39-2&t=IRgQ7uftgCIEgA6p-1" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-Yellow-400 rounded-lg hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            See more
+             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+</section>
+<!-- <div class="header">
 <h1 class="flex justify-center mb-10 pt-5 text-5xl font-extrabold dark:text-white">Contact<small class="text-5xl font-semibold text-blue-500 dark:text-blue-400">Me</small></h1>
 </div>
 
@@ -106,7 +174,7 @@
 <div class="max-w-sm mx-auto">
   <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit Your Massage</button>
 </div>
-</form>
+</form> -->
 
 
 @endsection
